@@ -1,10 +1,16 @@
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 import Button from "./components/UI/Button/Button";
+
 
 function App() {
   return (
     <div className="App">
-      salut
-      <Button>Salut</Button>
+      <Header/>
+      <main>
+      <Hero/>
+
+      </main>
     </div>
   );
 }
