@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.scss";
+import Button from "../UI/Button/Button";
 import hero from "../../assets/hero.jpg";
 import arrowDown from "../../assets/arrow-down.svg";
 
@@ -19,14 +20,7 @@ export default function Hero() {
             Define your limits and pursue your fitness goals with a complimentary all-access
             gym pass!
           </p>
-          <a
-            href="#"
-            className="button button--primary"
-            data-content="Find Out More"
-            area-label="Find out more"
-          >
-            Find out More
-          </a>
+          <Button>Find out More</Button>
         </div>
 
         <a href="#scrolldown" className="hero__scrollbtn">

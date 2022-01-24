@@ -1,0 +1,21 @@
+
+.footer-container {
+  ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+
+    li {
+      padding: 20px 0;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  @media screen and(min-width: 600px) {
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
