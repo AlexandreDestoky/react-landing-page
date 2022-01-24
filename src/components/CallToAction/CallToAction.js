@@ -4,13 +4,10 @@ import "./CallToAction.scss";
 
 export default function CallToAction(props) {
   return (
-    <section
-      class="get-started mt-1"
-      style={{ backgroundImage: `url(${props.img})` }}
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <h1 class="text-center">
+    <section className="get-started mt-1" style={{ backgroundImage: `url(${props.img})` }}>
+      <div className="overlay"></div>
+      <div className="container">
+        <h1 className="text-center">
           {props.firstTitle}
           <br /> <span>{props.secondTitle}</span>
         </h1>

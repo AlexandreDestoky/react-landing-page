@@ -12,18 +12,20 @@
     position: relative;
     text-decoration: none;
     min-height: 550px;
-
+    
     &-title {
       font-size: 3rem;
       z-index: 2;
       text-align: center;
     }
-
+    
     &-body {
       padding: 10px;
       text-align: center;
-      color: var(--secondary-color);
       z-index: 2;
+    }
+    @media screen and (min-width: 600px) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 

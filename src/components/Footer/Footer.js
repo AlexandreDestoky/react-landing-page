@@ -3,8 +3,8 @@ import "./Footer.scss";
 
 export default function Footer() {
   return (
-    <footer class="footer pt-1">
-      <div class="container footer-container">
+    <footer className="footer pt-1">
+      <div className="container footer-container">
         <ul>
           <li>
             <a href="#">Privacy statement</a>

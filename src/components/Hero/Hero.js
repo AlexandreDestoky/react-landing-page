@@ -6,7 +6,7 @@ import arrowDown from "../../assets/arrow-down.svg";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero__image">
         <img src={hero} alt="Lifting heavy!" loading="lazy" />
       </div>
@@ -23,7 +23,7 @@ export default function Hero() {
           <Button>Find out More</Button>
         </div>
 
-        <a href="#scrolldown" className="hero__scrollbtn">
+        <a href="#categorie" className="hero__scrollbtn">
           SCROLL
           <img src={arrowDown} alt="DOWN" />
         </a>

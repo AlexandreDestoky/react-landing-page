@@ -14,7 +14,7 @@ export default function Training() {
     },
     {
       title: "Classes",
-      body: "Develop strength, conditioning, and flexibility with our ZOO 365 - inspired fitness routines. These efficient, effective, total-body workouts can be done at home with minimal equipment.",
+      body: "Develop strength, conditioning, and flexibility with our DESTOKYGYM - inspired fitness routines. These efficient, effective, total-body workouts can be done at home with minimal equipment.",
       img: coaching,
     },
     {
@@ -24,21 +24,21 @@ export default function Training() {
     },
   ];
   return (
-    <section class="training-options pt-1">
-      <div class="container">
-        <h1 class="training-option__heading text-center">
+    <section className="training-options pt-1" id="training">
+      <div className="container">
+        <h1 className="training-option__heading text-center">
           Your Training <span>Options</span>
         </h1>
-        <p class="training-options__body text-center">
+        <p className="training-options__body text-center">
           Defy your limits and pursue your fitness goals with a complimentary all-access gym
           pass! Try our wide-variety of classes, train with world-class coaches, and access the
           equipment you need. Available at participating locations. Offers vary by location.
           Terms and conditions may apply.
         </p>
 
-        <div class="training training--options pt-1">
-          {dataTraining.map(data => (
-            <Card {...data} />
+        <div className="training training--options pt-1">
+          {dataTraining.map((data, i) => (
+            <Card {...data} key={i} />
           ))}
         </div>
       </div>

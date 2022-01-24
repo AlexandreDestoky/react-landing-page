@@ -3,7 +3,6 @@ import Categorie from "./components/Categorie/Categorie";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 
-import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Training from "./components/Training/Training";
 import getStarted from "./assets/get-started.jpg";
@@ -24,8 +23,8 @@ function App() {
   ];
   return (
     <div className="App">
-      <Navbar/>
-      {/* <Header /> */}
+      <Navbar />
+
       <main>
         <Hero />
         <Categorie />
@@ -33,6 +32,7 @@ function App() {
         <Training />
         <CallToAction {...callToActionData[1]} />
       </main>
+
       <Footer />
     </div>
   );
